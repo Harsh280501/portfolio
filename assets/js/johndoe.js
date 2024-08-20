@@ -148,3 +148,26 @@ function initMap() {
       ]
     });
 }
+
+
+    function printResume() {
+      console.log('in JSSS');
+      
+        // Create an anchor element
+        const link = document.createElement('a');
+        
+        // Set the href attribute to the local PDF file
+        link.href = 'documents\harsh_resume_pdf.pdf'; // Replace with the correct path
+        link.download = 'resume.pdf'; // Name of the downloaded file
+        
+        // Append the link to the body
+        document.body.appendChild(link);
+        
+        // Programmatically click the link to trigger the download
+        link.click();
+        
+        // Remove the link from the document
+        document.body.removeChild(link);
+    }
+
+
