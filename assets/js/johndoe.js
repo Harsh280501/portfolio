@@ -156,7 +156,11 @@ function initMap() {
         const link = document.createElement('a');
         
         // Set the href attribute to the local PDF file
+<<<<<<< HEAD
         link.href = 'documents/harsh_resume.pdf'; // Replace with the correct path
+=======
+        link.href = 'documents/harsh_resume_pdf.pdf'; // Replace with the correct path
+>>>>>>> dcaaa406ef6b067f96962f2b76722837fd5f2175
         link.download = 'resume.pdf'; // Name of the downloaded file
         
         // Append the link to the body
